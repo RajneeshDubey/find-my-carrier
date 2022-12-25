@@ -1,0 +1,29 @@
+@import "~@seller-center/design-tokens/tokens";
+
+p,
+span {
+  padding-top: $spacing-4;
+  padding-bottom: $spacing-4;
+  box-sizing: border-box;
+
+  svg {
+    padding-right: $spacing-4;
+    box-sizing: content-box;
+  }
+}
+svg {
+  display: inline-block;
+}
+.bg-blue {
+  background-color: #338de3;
+}
+.bg-top {
+  background-color: #0867bf;
+}
+.bg-blue-deep {
+  background-color: #004484;
+}
+.radio > span
+{
+    white-space: nowrap;
+}
